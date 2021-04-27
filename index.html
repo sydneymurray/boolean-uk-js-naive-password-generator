@@ -11,7 +11,9 @@
     let firstName = prompt("Please enter your first name?")    
     let lastName = prompt("Please enter your last name?")
     let colour = prompt("Please enter your favourite colour?")
-    alert (`Your password is ${firstName+lastName+colour+(Math.random() * 100).toFixed()}`)
+    let numberRange = prompt("What size random number?")
+    alert (`Your password is ${firstName+lastName+colour+(Math.random() * numberRange).toFixed()}`)
   </script>
  </body>
 </html>
+ 
